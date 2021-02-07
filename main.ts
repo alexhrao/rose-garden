@@ -11,7 +11,6 @@ if (require('electron-squirrel-startup')) {
             webPreferences: {
                 contextIsolation: true,
                 nodeIntegration: false,
-                devTools: false,
                 preload: join(__dirname, 'preload.js'),
             },
         });
